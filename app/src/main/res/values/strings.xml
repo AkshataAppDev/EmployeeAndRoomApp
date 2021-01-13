@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">EmployeeAndRoomApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="room">Room</string>
+    <string name="room_capacity">Capacity : </string>
+    <string name="employee">Employee</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">mobile number</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First name</string>
+    <string name="title">Title</string>
+    <string name="number">Number</string>
+    <string name="zero_search_result">0 results </string>
+    <string name="space">\u0020</string>
+    <string name="employee_email">Employee Email</string>
+    <string name="employee_mobile_number">Employee Mobile Number</string>
+    <string name="employee_jobtitle">Employee JobTitle</string>
+    <string name="employee_first_name">Employee First Name</string>
+    <string name="no_results">No results</string>
+    <string name="employee_photo">Employee Photo</string>
+    <string name="room_occupied">Occupied</string>
+</resources>

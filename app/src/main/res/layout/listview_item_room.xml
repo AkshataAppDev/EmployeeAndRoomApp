@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="room"
+            type="com.example.employeeandroomapp.models.Rooms"/>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/roomName"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="@{room.roomName}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Room name"
+            android:contentDescription="@{room.roomName}"/>
+
+        <TextView
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/roomStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:roomStatus="@{room.occupied}"
+            tools:text="Free" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/roomCapacity"
+            app:roomCapacity="@{room.roomCapacity}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Room Capacity : 100" />
+
+
+    </LinearLayout>
+</layout>
